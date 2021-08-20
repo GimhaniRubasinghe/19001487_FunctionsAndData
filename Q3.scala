@@ -21,6 +21,6 @@ object Q3 extends App{
 
     def Transfer(m1:Account,m2:Double) = {this.Withdraw(m2)
       m1.Deposit(m2)}
-    override def toString = "[" + NIC + "," + Account_no + "," + Name + "," + Balance + "]"
+    override def toString = "[" + NIC + "," + Account_no + "," + Name + ", Rs." + Balance + "]"
   }
 }

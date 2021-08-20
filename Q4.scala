@@ -28,7 +28,7 @@ object Q4 extends App(){
 
   Bank = List(A1,A2,A3,A4);
   println(NegetiveAccount(Bank));
-  println("Sum : " + Sum(Bank));
+  println("Sum : Rs." + Sum(Bank));
   Interest(Bank);
   DisplayAccount(Bank);
 }
